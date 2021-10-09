@@ -125,6 +125,14 @@ body {
     .block-svg {
         top: -61px;
     }
+    @keyframes anim {
+        0% {
+            left: -47px;
+        }
+        100% {
+            left: 110%;
+        }
+    }
 }
 
 @media (max-width:560px) {
@@ -139,5 +147,13 @@ body {
     }
     .block-svg {
         top: -50px;
+    }
+    @keyframes anim {
+        0% {
+            left: -35px;
+        }
+        100% {
+            left: 110%;
+        }
     }
 }
